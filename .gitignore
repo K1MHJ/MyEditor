@@ -3,3 +3,5 @@
 Debug/
 Win32/
 WpfHost/obj/
+WpfCustomControlLibrary/bin/
+WpfCustomControlLibrary/obj/
