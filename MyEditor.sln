@@ -7,19 +7,39 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32", "Win32\Win32.vcxpro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHost", "WpfHost\WpfHost.csproj", "{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCustomControlLibrary", "WpfCustomControlLibrary\WpfCustomControlLibrary.csproj", "{4F309F28-2135-4E70-A5EB-7EE84456BE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32170EC8-151A-4203-8181-61CA2B7B493C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{32170EC8-151A-4203-8181-61CA2B7B493C}.Debug|Any CPU.Build.0 = Debug|Win32
 		{32170EC8-151A-4203-8181-61CA2B7B493C}.Debug|x86.ActiveCfg = Debug|Win32
+		{32170EC8-151A-4203-8181-61CA2B7B493C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{32170EC8-151A-4203-8181-61CA2B7B493C}.Release|Any CPU.Build.0 = Release|Win32
 		{32170EC8-151A-4203-8181-61CA2B7B493C}.Release|x86.ActiveCfg = Release|Win32
 		{32170EC8-151A-4203-8181-61CA2B7B493C}.Release|x86.Build.0 = Release|Win32
+		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Debug|Any CPU.Build.0 = Debug|x86
 		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Debug|x86.ActiveCfg = Debug|x86
 		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Debug|x86.Build.0 = Debug|x86
+		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Release|Any CPU.ActiveCfg = Release|x86
+		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Release|Any CPU.Build.0 = Release|x86
 		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Release|x86.ActiveCfg = Release|x86
 		{61ADD9FD-9F81-418E-BFCC-844DB3DBF4B1}.Release|x86.Build.0 = Release|x86
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F309F28-2135-4E70-A5EB-7EE84456BE0E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
